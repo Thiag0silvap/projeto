@@ -16,8 +16,8 @@
 		<h4>Cadastro de Produto</h4>
 		<form action="_inserir_produto.php" method="post" style="margin-top: 20px;">
 			<div class="mb-3">
-				<label>Nro do Produto</label>
-				<input type="number" class="form-control" name="nroproduto" placeholder="Insira o número do produto" autocomplete="off" required>
+				<label>Código do Produto</label>
+				<input type="number" class="form-control" name="codproduto" placeholder="Insira o número do produto" autocomplete="off" required>
 			</div>
 
 			<div class="mb-3">

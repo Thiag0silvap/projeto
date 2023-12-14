@@ -12,7 +12,7 @@
 			<h4>Cadastro de Categoria</h4>
 			<div class="mb-3">
 				<label>Categoria</label>
-				<input type="text" name="categoria" placeholder="Digite o nome da categoria" autocomplete="off">
+				<input type="text" class="form-control" name="categoria" placeholder="Digite o nome da categoria" autocomplete="off">
 			</div>
 			<div style="text-align:right;">
 				<a href="#" role="button" class="btn btn-primary btn-sm">Voltar</a>
