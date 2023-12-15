@@ -9,7 +9,7 @@
 <body>
 	<div class="container" style="width:400px; margin-top: 40px;">
 		<h4>Cadastro de Usuário</h4>
-		<form action="_insert_usuario.php" method="post">
+		<form action="_insert_usuario_externo.php" method="post">
 			<div class="mb-3">
 				<label>Nome do Usuário</label>
 				<input type="text" class="form-control" name="nomeusuario" autocomplete="off" placeholder="Nome Completo" required>

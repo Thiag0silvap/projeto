@@ -27,9 +27,17 @@
 
 			<div class="mb-3">
 				<label>Categoria</label>
-				<select class="form-select" name="">
-					
-					<option></option>
+				<select class="form-select" name="categoria">
+					<?php 
+					include 'conexao.php';
+					$sql = "SELECT * FROM categoria order by nome_categoria ASC";
+					$buscar = mysqli_query($conexao, $sql);
+					while ($array = mysqli_fetch_array($buscar)) {
+						$id_categoria = $array["id_categoria"];
+						$nome_categoria = $array["categoria"];
+						?>
+					<option><?php echo $nome_categoria?></option>
+				<?php }?>
 				</select>
 			</div>
 
@@ -41,7 +49,16 @@
 			<div class="mb-3">
 				<label>Fornecedor</label>
 				<select class="form-select" name="fornecedor">
-					<option></option>
+					<?php 
+					include 'conexao.php';
+					$sql = "SELECT * FROM fornecedor";
+					$buscar2 = mysqli_query($conexao, $sql2);
+					while ($array2 = mysqli_fetch_array($buscar2)) {
+						$id_fornecedor = $array2['id_fornecedor'];
+						$nome_fornecedor = $array2['nome_forn'];
+						?>
+					<option><?php echo $nome_fornecedor?></option>
+				<?php }?>
 				</select>
 			</div>
 
