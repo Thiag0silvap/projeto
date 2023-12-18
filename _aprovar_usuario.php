@@ -11,7 +11,7 @@ if ($nivel == 1) {
 	echo "ADMINISTRADOR APROVADO";
 } 
 
-if (condition) {
+if ($nivel == 2) {
 	$update = "UPDATE usuarios SET status = 'Ativo', nivel_usuario = 2 WHERE id_usuario = $id";
 	$atualizacao = mysqli_query($conexão, $update);
 	echo "FUNCIONÁRIO APROVADO";

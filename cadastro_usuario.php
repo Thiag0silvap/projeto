@@ -23,12 +23,12 @@
 
 			<div class="mb-3">
 				<label>Senha do Usuário</label>
-				<input type="password" class="form-control" name="senhausuario" autocomplete="off" placeholder="Senha" required>
+				<input type="password" id="txtSenha" class="form-control" name="senhausuario" autocomplete="off" placeholder="Senha" required>
 			</div>
 
 			<div class="mb-3">
 				<label>Repetir Senha</label>
-				<input type="password" class="form-control" name="senhausuario2" autocomplete="off" placeholder="Repetir Senha" required>
+				<input type="password" class="form-control" name="senhausuario2" autocomplete="off" placeholder="Repetir Senha" required oninput="validaSenha(this)">
 			</div>
 
 			<div class="mb-3">
@@ -47,5 +47,6 @@
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script href="validaSenha.js"></script>
 </body>
 </html>
