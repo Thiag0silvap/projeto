@@ -2,7 +2,7 @@
 include 'conexao.php';
 $id = $_POST['id'];
 $nomecategoria = $_POST['categoria'];
-$sql = "UPDATE categoria SET categoria = '$nomecategoria' WHERE id_categoria = $id";
+$sql = "UPDATE `categoria` SET `categoria` = '$nomecategoria' WHERE id_categoria = $id";
 $atualizar = mysqli_query($conexao, $sql);
 
 ?>
