@@ -1,6 +1,8 @@
-# Cadastro de usuário
-- Cadastro usuários para obter suas informações
-- Cadastro de fornecedores, categoria e produto
+# Gerenciamento de Estoque
+- Cadastro de Usuário 
+- Cadastro de Fornecedores
+- Cadastro de Categoria
+- Cadastro de Produto
 
 ## Inserindo bootstrap
 - Framework front-end 
